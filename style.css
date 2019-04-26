@@ -1,0 +1,53 @@
+body  { 
+    background-color:cornflowerblue; 
+    position: relative;
+}
+
+html {
+    font-family: 'Indie Flower', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+.title_heading{
+    font-weight: 500;
+    font-size: 80px;
+    font-style: bold;
+}
+.img {
+    width: 200px;
+    height: 30%;
+    border-radius: 10px;
+    border:20px solid red;
+    margin-left: auto;
+    margin: 0% auto;
+    display: block;
+    /*position: fixed;*/
+    top:0;
+    right: 0;
+    box-shadow: 1px 1px 100px #000;
+    transition: box-shadow .5s;
+    
+    }
+.img:hover {
+        box-shadow: 1px 1px 100px yellowgreen;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.inline {
+    display:inline;
+    text-align: justify;
+
+}
+.li {
+    text-align: justify;
+    
+}
+.ol {
+    text-align: justify;
+    list-style: lower-alpha;
+}
